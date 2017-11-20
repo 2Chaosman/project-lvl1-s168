@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/2Chaosman/project-lvl1-s168/issues"
   },
-  "homepage": "https://github.com/2Chaosman/project-lvl1-s168#readme"
+  "homepage": "https://github.com/2Chaosman/project-lvl1-s168#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  }
 }
