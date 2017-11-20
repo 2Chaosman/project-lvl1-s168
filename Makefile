@@ -5,4 +5,4 @@ start:
 publish:
 	npm publish
 lint:
-	npm run eslint src/bin/brain-games.js
+	npm run eslint /brain-games/
