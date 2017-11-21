@@ -6,5 +6,5 @@ publish:
 	npm publish
 lint:
 	npm run eslint /brain-games/src/
-start brain-even:
+braineven:
 	npm run babel-node -- src/bin/brain-even.js

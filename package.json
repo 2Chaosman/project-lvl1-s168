@@ -2,7 +2,7 @@
   "name": "hexlet_project_brain_games",
   "version": "0.2.2",
   "description": "hexlet project",
-  "main": "brain-games.js",
+  "main": "dist/index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js"

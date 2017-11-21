@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { askForName, brainEven } from '..';
 
 console.log('Welcome to Brain Games!\nAnswer "yes" if number even otherwise answer "no".');
-const name = askForName();
+askForName();
 
 brainEven()
