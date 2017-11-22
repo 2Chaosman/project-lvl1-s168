@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import { askForName, brainCalc } from '..';
+import { askForName, brainCalc } from '../games/';
 
-askForName();
 brainCalc();
