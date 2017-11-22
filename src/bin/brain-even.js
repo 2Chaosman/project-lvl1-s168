@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import { brainEven } from '../games/';
+import { brainEven } from './brain-even';
 
 brainEven()

@@ -28,3 +28,5 @@ const brainEven = () => {
   }
   console.log(`Congratulations, ${name}!`);
 };
+
+export default brainEven;
