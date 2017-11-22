@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import askForName from 'index';
+import { askForName } from '..';
 
 askForName();
