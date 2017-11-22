@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/2Chaosman/project-lvl1-s168#readme",
   "dependencies": {
+    "hexlet-pairs": "^1.0.5",
     "readline-sync": "^1.4.7"
   }
 }
