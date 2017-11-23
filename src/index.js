@@ -9,7 +9,8 @@ const greetings = (gameDescription) => {
 };
 
 const getRandomNumber = () => {
-  return Math.floor(Math.random() * 100);
+  const num = Math.floor(Math.random() * 100)
+  return num;
 };
 
 const randomSymbol = () => {
@@ -34,14 +35,24 @@ const gdc = (a, b) => {
   }
 }
 
-const showResults = (correctAnswer, answer, attempt) => {
-  if (correctAnswer === Number(answer)){
+const startGame = (question, game, pair) => {
+  let attempt = 0;
+
+  while (attempt < 3) {
+  let correctAnswer = game();
+  console.log(question);
+  const answer = readlineSync.prompt();
+  console.log(`Your answer: ${answer}`);
+
+  if (correctAnswer.toString() === answer){
     console.log("Correct!");
     attempt += 1;
   } else {
       console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`)
       return;
+    }
   }
-};
+  console.log(`Congratulations, ${name}!`);
+}
 
-export { greetings, randomSymbol, getRandomNumber, getNewRandoms, gdc, showResults };
+export { greetings, randomSymbol, getRandomNumber, getNewRandoms, gdc, startGame };
