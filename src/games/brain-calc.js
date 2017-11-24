@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { cons, car, cdr } from 'hexlet-pairs';
+import { cons, car, cdr, toString } from 'hexlet-pairs';
 import { greetings, getRandomNumber, randomSymbol, getNewRandoms, startGame } from './src/index';
 
 const brainCalc = () => {
@@ -7,14 +7,15 @@ const brainCalc = () => {
   const askQuestion = () => {
     let randomMathSymbol = randomSymbol();
     let pair = cons(getRandomNumber(), getRandomNumber());
+    let result;
     return [car(pair), randomMathSymbol, cdr(pair)];
   }
 
   const randomSymbol = askQuestion()[1];
 
-  const calc = () =>{
+  const calc = (list) =>{
 
-      const correctAnswer = 0;
+      let correctAnswer = 0;
 
       switch (randomSymbol) {
       case '+':
@@ -30,7 +31,7 @@ const brainCalc = () => {
   }
 
   const getGameData = () => {
-    const question = askQuestion()[0];
+    const question = askQuestion();
     const answer = calc(question);
     return [question, answer];
   }

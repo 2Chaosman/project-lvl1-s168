@@ -31,14 +31,6 @@ const getNewRandoms = () => {
   return [symbol, cons(a, b)];
 };
 
-const gdc = (a, b) => {
-  if (b === 0) {
-    return a;
-  } else {
-    return gdc(b, a % b);
-  }
-}
-
 const startGame = (gameDescription, getGameData) => {
   const name = greetings(gameDescription);
   let attempt = 0;
@@ -67,6 +59,5 @@ export {
   randomSymbol,
   getRandomNumber,
   getNewRandoms,
-  gdc,
   startGame
 };

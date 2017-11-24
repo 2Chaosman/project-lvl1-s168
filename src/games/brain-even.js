@@ -1,26 +1,29 @@
 #!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
-import { cons, car, cdr } from 'hexlet-pairs';
-import { greetings, getRandomNumber } from '..';
+import {
+  cons,
+  car,
+  cdr
+} from 'hexlet-pairs';
+import {
+  getRandomNumber,
+  startGame
+} from '..';
 
+const askQuestion = () => {
+  return getRandomNumber();
+}
 
-const brainEven = () => {
+const isEven = (number) => {
+  return (number % 2 === 0) ? 'yes' : 'no';
+}
 
-  const askQuestion = () => {
-    return getRandomNumber();
-  }
-
-  const isEven = (number) => {
-    return (number % 2 === 0) ? 'yes' : 'no';
-  }
-
-  const getGameData = () => {
-    const question = askQuestion();
-    const answer = isEven(question);
-    return [question, answer]
-  }
-
-
+const getGameData = () => {
+  const question = askQuestion();
+  const answer = isEven(question);
+  return [question, answer];
+}
 
 export default () => {
   const gameDescription = '';
