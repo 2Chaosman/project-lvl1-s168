@@ -5,28 +5,24 @@ import { greetings, getRandomNumber } from '..';
 
 
 const brainEven = () => {
-  const name = greetings('Answer "yes" if number even otherwise answer "no".')
 
-  let number = getRandomNumber();
-  let attempt = 0;
-
-  while (attempt < 3) {
-    console.log(`Question: ${number}`);
-    let answer = readlineSync.prompt();
-    console.log(`Your answer: ${answer}`);
-    if (
-      (answer === 'yes' && number % 2 === 0) ||
-      (answer === 'no' && number % 2 !== 0)
-    ) {
-      console.log('Correct!');
-      number = getRandomNumber();
-      attempt += 1;
-    } else {
-      console.log(`'${answer}' is wrong. Correct is ${(number % 2 === 0) ? "'yes'" : "'no'"}`);
-      return;
-    }
+  const askQuestion = () => {
+    return getRandomNumber();
   }
-  console.log(`Congratulations, ${name}!`);
-};
 
-export default brainEven;
+  const isEven = (number) => {
+    return (number % 2 === 0) ? 'yes' : 'no';
+  }
+
+  const getGameData = () => {
+    const question = askQuestion();
+    const answer = isEven(question);
+    return [question, answer]
+  }
+
+
+
+export default () => {
+  const gameDescription = '';
+  return startGame(gameDescription, getGameData);
+};

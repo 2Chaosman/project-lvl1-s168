@@ -1,5 +1,10 @@
 import readlineSync from 'readline-sync';
-import { cons, car, cdr, toString } from 'hexlet-pairs';
+import {
+  cons,
+  car,
+  cdr,
+  toString
+} from 'hexlet-pairs';
 
 const greetings = (gameDescription) => {
   console.log(`Welcome to the Brain Games!\n${gameDescription}`);
@@ -9,7 +14,7 @@ const greetings = (gameDescription) => {
 };
 
 const getRandomNumber = () => {
-  const num = Math.floor(Math.random() * 100)
+  const num = Math.floor(Math.random() * 10)
   return num;
 };
 
@@ -19,12 +24,11 @@ const randomSymbol = () => {
   return symbols[rand];
 };
 
-const getNewRandoms = (pair) => {
-  let a = car(pair);
-  let b = cdr(pair);
-  a = getRandomNumber();
-  b = getRandomNumber();
-  return cons(a, b);
+const getNewRandoms = () => {
+  let symbol = randomSymbol();
+  let a = getRandomNumber();
+  let b = getRandomNumber();
+  return [symbol, cons(a, b)];
 };
 
 const gdc = (a, b) => {
@@ -35,19 +39,22 @@ const gdc = (a, b) => {
   }
 }
 
-const startGame = (question, game, pair) => {
+const startGame = (gameDescription, getGameData) => {
+  const name = greetings(gameDescription);
   let attempt = 0;
 
   while (attempt < 3) {
-  let correctAnswer = game();
-  console.log(question);
-  const answer = readlineSync.prompt();
-  console.log(`Your answer: ${answer}`);
+    let gameData = getGameData();
+    let question = gameData[0];
+    let correctAnswer = gameData[1];
+    console.log(question);
+    const answer = readlineSync.prompt();
+    console.log(`Your answer: ${answer}`);
 
-  if (correctAnswer.toString() === answer){
-    console.log("Correct!");
-    attempt += 1;
-  } else {
+    if (correctAnswer.toString() === answer) {
+      console.log("Correct!");
+      attempt += 1;
+    } else {
       console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`)
       return;
     }
@@ -55,4 +62,11 @@ const startGame = (question, game, pair) => {
   console.log(`Congratulations, ${name}!`);
 }
 
-export { greetings, randomSymbol, getRandomNumber, getNewRandoms, gdc, startGame };
+export {
+  greetings,
+  randomSymbol,
+  getRandomNumber,
+  getNewRandoms,
+  gdc,
+  startGame
+};

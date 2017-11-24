@@ -1,47 +1,43 @@
-#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { cons, car, cdr } from 'hexlet-pairs';
-import { greetings, getRandomNumber, randomSymbol, getNewRandoms, showResults } from '..';
+import { greetings, getRandomNumber, randomSymbol, getNewRandoms, startGame } from './src/index';
 
 const brainCalc = () => {
-  const name = greetings('What is the result of the expression?');
 
-  let num1 = getRandomNumber();
-  let num2 = getRandomNumber();
-  let pair = cons(cons(num1, num2), randomMathSymbol);
-  let randomMathSymbol = randomSymbol();
-  let attempt = 0;
-  let correctAnswer = 0;
+  const askQuestion = () => {
+    let randomMathSymbol = randomSymbol();
+    let pair = cons(getRandomNumber(), getRandomNumber());
+    return [car(pair), randomMathSymbol, cdr(pair)];
+  }
 
-  while (attempt < 3) {
-    console.log(`Question: ${car(pair)} ${randomMathSymbol} ${cdr(pair)} `);
-    const answer = readlineSync.prompt();
-    console.log(`Your answer: ${answer}`);
+  const randomSymbol = askQuestion()[1];
 
-    switch (randomMathSymbol) {
+  const calc = () =>{
+
+      const correctAnswer = 0;
+
+      switch (randomSymbol) {
       case '+':
         correctAnswer = car(pair) + cdr(pair);
-        break;
+        return correctAnswer;
       case '-':
         correctAnswer = car(pair) - cdr(pair);
-        break;
+        return correctAnswer;
       case '*':
         correctAnswer = car(pair) * cdr(pair);
-        break;
-    }
-
-    pair = getNewRandoms(pair);
-    randomMathSymbol = randomSymbol();
-
-    if (correctAnswer === Number(answer)){
-      console.log("Correct!");
-      attempt += 1;
-    } else {
-        console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`)
-        return;
+        return correctAnswer;
     }
   }
-  console.log(`Congratulations, ${name}!`);
+
+  const getGameData = () => {
+    const question = askQuestion()[0];
+    const answer = calc(question);
+    return [question, answer];
+  }
+
 };
 
-export default brainCalc;
+export default () => {
+  const gameDescription = '';
+  return startGame(gameDescription, getGameData);
+}

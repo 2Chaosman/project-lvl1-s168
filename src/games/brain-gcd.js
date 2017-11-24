@@ -4,33 +4,29 @@ import { greetings, getRandomNumber, gdc, showResults, getNewRandoms } from '..'
 import { cons, car, cdr, toString } from 'hexlet-pairs';
 
 const brainGcd = () => {
-  const name = greetings('Find the greatest common divisor of given numbers.');
 
+  const askQuestion = () => {
+    let num1 = getRandomNumber();
+    let num2 = getRandomNumber();
+    return [num1, num2];
+  }
 
-  let num1 = getRandomNumber();
-  let num2 = getRandomNumber();
-  let pair = cons(num1, num2);
-
-  let attempt = 0;
-  let correctAnswer = 0;
-
-  while (attempt < 3) {
-    console.log(`Question: ${car(pair)} ${cdr(pair)}`);
-    const answer = readlineSync.prompt();
-    console.log(`Your answer: ${answer}`);
-
-    correctAnswer = gdc(car(pair), cdr(pair))
-    pair = getNewRandoms(pair);
-
-    if (correctAnswer === Number(answer)){
-      console.log("Correct!");
-      attempt += 1;
+  const gdc = (a, b) => {
+    if (a === 0) {
+      return a;
     } else {
-        console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`)
-        return;
+      return gdc(b, a % b);
     }
   }
-  console.log(`Congratulation, ${name}`)
-};
 
-export default brainGcd;
+  const getGameData = () => {
+    const question = askQuestion();
+    const answer = gdc(question)
+    return [question, answer];
+  }
+
+  export default () => {
+    const gameDescription = '';
+    return startGame(gameDescription, getGameData);
+  }
+}

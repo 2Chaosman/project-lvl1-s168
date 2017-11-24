@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import brainGcd from '../games/brain-gcd';
+import launchGame from '../games/brain-gcd';
 
-brainGcd();
+launchGame();
