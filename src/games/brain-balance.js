@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-
 import {
   getRandomNumber,
   makeListOfNumbers,
   startGame,
-} from '..';
+} from '../utils';
+import {
+  startGame,
+} from '../index';
 
 const askQuestion = () => getRandomNumber(1000);
 

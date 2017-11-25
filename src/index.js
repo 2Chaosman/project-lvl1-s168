@@ -32,6 +32,5 @@ const startGame = (gameDescription, getGameData) => {
 };
 
 export {
-  greetings,
   startGame,
 };
