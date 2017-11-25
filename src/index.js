@@ -13,8 +13,8 @@ const greetings = (gameDescription) => {
   return name;
 };
 
-const getRandomNumber = () => {
-  const num = Math.floor(Math.random() * 10)
+const getRandomNumber = (difficulty) => {
+  const num = Math.floor(Math.random() * difficulty)
   return num;
 };
 
@@ -38,6 +38,12 @@ const listToString = (list) => {
     }
     return result;
   };
+
+const makeListofNumbers = (num) => {
+    num = num.toString();
+    const arr = num.split('');
+    return arr;
+};
 
 const startGame = (gameDescription, getGameData) => {
   const name = greetings(gameDescription);
@@ -68,5 +74,6 @@ export {
   getRandomNumber,
   getNewRandoms,
   listToString,
+  makeListofNumbers,
   startGame
 };

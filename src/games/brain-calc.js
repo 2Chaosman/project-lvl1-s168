@@ -4,7 +4,7 @@ import { greetings, getRandomNumber, randomSymbol, getNewRandoms, listToString, 
 
   const askQuestion = () => {
     let randomMathSymbol = randomSymbol();
-    let pair = cons(getRandomNumber(), getRandomNumber());
+    let pair = cons(getRandomNumber(10), getRandomNumber(10));
     let result;
     return [car(pair), randomMathSymbol, cdr(pair)];
   }

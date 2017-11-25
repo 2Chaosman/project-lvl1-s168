@@ -17,8 +17,8 @@ import {
 
 
 const askQuestion = () => {
-  let num1 = getRandomNumber();
-  let num2 = getRandomNumber();
+  let num1 = getRandomNumber(10);
+  let num2 = getRandomNumber(10);
   return cons(num1, num2);
 }
 

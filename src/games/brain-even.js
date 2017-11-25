@@ -12,7 +12,7 @@ import {
 } from '..';
 
 const askQuestion = () => {
-  return getRandomNumber();
+  return getRandomNumber(10);
 }
 
 const isEven = (number) => {
