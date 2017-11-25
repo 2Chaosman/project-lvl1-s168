@@ -2,7 +2,6 @@
 import {
   getRandomNumber,
   makeListOfNumbers,
-  startGame,
 } from '../utils';
 import {
   startGame,

@@ -7,8 +7,10 @@ import {
   getRandomNumber,
   randomSymbol,
   convertListToString,
+} from '../utils';
+import {
   startGame,
-} from '..';
+} from '../index';
 
 const askQuestion = () => {
   const randomMathSymbol = randomSymbol();

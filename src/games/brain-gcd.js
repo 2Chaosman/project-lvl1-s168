@@ -7,8 +7,10 @@ import {
 } from 'hexlet-pairs';
 import {
   getRandomNumber,
+} from '../utils';
+import {
   startGame,
-} from '..';
+} from '../index';
 
 const askQuestion = () => {
   const num1 = getRandomNumber(10);
