@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import {
   getRandomNumber,
   makeListOfNumbers,
@@ -13,17 +14,17 @@ const balance = (str) => {
   let arr = makeListOfNumbers(str);
 
   const balanceArr = (newArr) => {
-    newArr = newArr.sort((a, b) => a - b);
-    const biggestNumber = Number(newArr[newArr.length - 1]);
-    const smallestNumber = Number(newArr[0]);
+    const sortedArr = newArr.sort((a, b) => a - b);
+    const biggestNumber = Number(sortedArr[newArr.length - 1]);
+    const smallestNumber = Number(sortedArr[0]);
 
     if (biggestNumber - smallestNumber <= 1) {
-      return newArr;
-    } else {
-      newArr[0] = smallestNumber + 1;
-      newArr[arr.length - 1] = biggestNumber - 1;
-      return balanceArr(newArr);
+      return sortedArr;
     }
+
+    sortedArr[0] = smallestNumber + 1;
+    sortedArr[arr.length - 1] = biggestNumber - 1;
+    return balanceArr(sortedArr);
   };
   arr = balanceArr(arr);
   arr = arr.join('');

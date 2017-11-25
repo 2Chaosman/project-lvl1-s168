@@ -31,6 +31,4 @@ const startGame = (gameDescription, getGameData) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export {
-  startGame,
-};
+export default startGame;

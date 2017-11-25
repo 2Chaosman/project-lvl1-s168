@@ -20,8 +20,8 @@ const convertListToString = (list) => {
 };
 
 const makeListOfNumbers = (num) => {
-  num = num.toString();
-  const arr = num.split('');
+  const convertedNum = num.toString();
+  const arr = convertedNum.split('');
   return arr;
 };
 

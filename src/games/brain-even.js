@@ -8,7 +8,7 @@ import {
 
 const askQuestion = () => getRandomNumber(10);
 
-const checkForEven = (number) => number % 2 === 0 ? 'yes' : 'no';
+const checkForEven = number => (number % 2 === 0 ? 'yes' : 'no');
 
 const getGameData = () => {
   const question = askQuestion();

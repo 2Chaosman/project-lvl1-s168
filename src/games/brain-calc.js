@@ -34,6 +34,8 @@ const calc = (list) => {
     case '*':
       correctAnswer = num1 * num2;
       break;
+    default:
+      break;
   }
   return correctAnswer;
 };
