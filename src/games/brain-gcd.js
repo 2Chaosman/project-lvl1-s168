@@ -37,6 +37,6 @@ const getGameData = () => {
 }
 
 export default () => {
-  const gameDescription = '';
+  const gameDescription = 'Find the greatest common divisor of given numbers';
   return startGame(gameDescription, getGameData);
 }

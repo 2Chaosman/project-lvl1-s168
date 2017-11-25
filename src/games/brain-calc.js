@@ -1,8 +1,6 @@
 import readlineSync from 'readline-sync';
 import { cons, car, cdr, toString } from 'hexlet-pairs';
-import { greetings, getRandomNumber, randomSymbol, getNewRandoms, startGame } from './src/index';
-
-const brainCalc = () => {
+import { greetings, getRandomNumber, randomSymbol, getNewRandoms, listToString, startGame } from '..';
 
   const askQuestion = () => {
     let randomMathSymbol = randomSymbol();
@@ -11,21 +9,21 @@ const brainCalc = () => {
     return [car(pair), randomMathSymbol, cdr(pair)];
   }
 
-  const randomSymbol = askQuestion()[1];
-
   const calc = (list) =>{
-
       let correctAnswer = 0;
+      const mathSymbol = list[1];
+      const num1 = list[0];
+      const num2 = list[2];
 
-      switch (randomSymbol) {
+      switch (mathSymbol) {
       case '+':
-        correctAnswer = car(pair) + cdr(pair);
+        correctAnswer = num1 + num2;
         return correctAnswer;
       case '-':
-        correctAnswer = car(pair) - cdr(pair);
+        correctAnswer = num1 - num2;
         return correctAnswer;
       case '*':
-        correctAnswer = car(pair) * cdr(pair);
+        correctAnswer = num1 * num2;
         return correctAnswer;
     }
   }
@@ -33,12 +31,10 @@ const brainCalc = () => {
   const getGameData = () => {
     const question = askQuestion();
     const answer = calc(question);
-    return [question, answer];
+    return [listToString(question), answer];
   }
 
-};
-
 export default () => {
-  const gameDescription = '';
+  const gameDescription = 'What is the result of the expression?';
   return startGame(gameDescription, getGameData);
 }

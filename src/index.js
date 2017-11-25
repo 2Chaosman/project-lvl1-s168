@@ -31,6 +31,14 @@ const getNewRandoms = () => {
   return [symbol, cons(a, b)];
 };
 
+const listToString = (list) => {
+    let result = '';
+    for (let i = 0; i < list.length; i++) {
+      result += list[i] ;
+    }
+    return result;
+  };
+
 const startGame = (gameDescription, getGameData) => {
   const name = greetings(gameDescription);
   let attempt = 0;
@@ -39,7 +47,7 @@ const startGame = (gameDescription, getGameData) => {
     let gameData = getGameData();
     let question = gameData[0];
     let correctAnswer = gameData[1];
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = readlineSync.prompt();
     console.log(`Your answer: ${answer}`);
 
@@ -59,5 +67,6 @@ export {
   randomSymbol,
   getRandomNumber,
   getNewRandoms,
+  listToString,
   startGame
 };

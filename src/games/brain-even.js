@@ -26,6 +26,6 @@ const getGameData = () => {
 }
 
 export default () => {
-  const gameDescription = '';
+  const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
   return startGame(gameDescription, getGameData);
 };
