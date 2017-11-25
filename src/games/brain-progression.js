@@ -9,13 +9,13 @@ import startGame from '../index';
 const askQuestion = () => {
   const step = getRandomNumber(10);
 
-  let result = [getRandomNumber(10)]
+  const result = [getRandomNumber(10)];
 
   for (let i = 0; i < 10; i += 1) {
     result.push(result[i] + step);
   }
   const missedNumber = getRandomNumber(10);
-  result[missedNumber] = '..'
+  result[missedNumber] = '..';
   return result;
 };
 
@@ -37,10 +37,10 @@ const findMissedNumber = (list) => {
   return list[pos - 1] + step;
 };
 
-const getGameData = (list) => {
+const getGameData = () => {
   const question = askQuestion();
   const answer = findMissedNumber(question);
-  return [convertListToString(question), answer]
+  return [convertListToString(question), answer];
 };
 
 export default () => {

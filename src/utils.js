@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const getRandomNumber = (difficulty) => {
-  const num = Math.floor(Math.random() * (difficulty - 1) + 1);;
+  const num = Math.floor((Math.random() * (difficulty - 1)) + 1);
   return num;
 };
 
@@ -14,7 +14,7 @@ const randomSymbol = () => {
 const convertListToString = (list) => {
   let result = '';
   for (let i = 0; i < list.length; i += 1) {
-    result += list[i] + ' ';
+    result += `${list[i]} `;
   }
   return result;
 };
