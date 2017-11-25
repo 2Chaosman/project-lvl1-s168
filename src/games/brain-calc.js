@@ -3,9 +3,7 @@ import {
   randomSymbol,
   convertListToString,
 } from '../utils';
-import {
-  startGame,
-} from '../index';
+import startGame from '../index';
 
 const askQuestion = () => [getRandomNumber(10), randomSymbol(), getRandomNumber(10)];
 

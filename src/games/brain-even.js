@@ -2,9 +2,7 @@
 import {
   getRandomNumber,
 } from '../utils';
-import {
-  startGame,
-} from '../index';
+import startGame from '../index';
 
 const askQuestion = () => getRandomNumber(10);
 
