@@ -1,0 +1,554 @@
+{
+  "width": 80,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm-256color"
+  },
+  "stdout": [
+    [
+      0.54354,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.363142,
+      "m"
+    ],
+    [
+      0.047735,
+      "a"
+    ],
+    [
+      0.151792,
+      "l"
+    ],
+    [
+      0.408348,
+      "\b\u001b[K"
+    ],
+    [
+      0.23992,
+      "k"
+    ],
+    [
+      0.087984,
+      "e"
+    ],
+    [
+      0.352012,
+      " "
+    ],
+    [
+      0.296048,
+      "i"
+    ],
+    [
+      0.103981,
+      "n"
+    ],
+    [
+      0.071935,
+      "s"
+    ],
+    [
+      0.144086,
+      "t"
+    ],
+    [
+      0.095774,
+      "a"
+    ],
+    [
+      0.159988,
+      "l"
+    ],
+    [
+      0.144231,
+      "l"
+    ],
+    [
+      0.479851,
+      "\r\n"
+    ],
+    [
+      0.001791,
+      "npm install -g\r\n"
+    ],
+    [
+      0.575029,
+      "\u001b[?25l"
+    ],
+    [
+      0.003221,
+      "[\u001b[90m..................\u001b[0m] / rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.053861,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.049908,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.106542,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.067489,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.198141,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.050438,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.052983,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.051729,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m d70e9f55c29df00\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.303833,
+      "[\u001b[90m..................\u001b[0m] / loadIdealTree:loadAllDepsIntoIdealTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loa\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.051528,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.084981,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.057609,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.100965,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.053976,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.064542,
+      "[\u001b[90m..................\u001b[0m] \\ loadDep:semver: \u001b[7msill\u001b[0m \u001b[35mresolveWithNewModule\u001b[0m hexlet_project\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.05849,
+      "[\u001b[90m..................\u001b[0m] \\ loadDep:babel-types: \u001b[7msill\u001b[0m \u001b[35mresolveWithNewModule\u001b[0m hexlet_pr\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.0518,
+      "[\u001b[7m \u001b[27m\u001b[90m.................\u001b[0m] \\ loadDep:babel-types: \u001b[7msill\u001b[0m \u001b[35mresolveWithNewModule\u001b[0m hexlet_pr\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.226309,
+      "[\u001b[7m       \u001b[27m\u001b[90m...........\u001b[0m] - diffTrees: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m generateActionsToTake\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.040239,
+      "\r\u001b[K\u001b[?25h/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-games -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-games.js\r\n/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-even -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-even.js\r\n/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-calc -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-calc.js\r\n/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-gcd -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-gcd.js\r\n/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-balance -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-balance.js\r\n"
+    ],
+    [
+      0.003249,
+      "+ hexlet_project_brain_games@0.6.0\r\nupdated 1 package in 1.894s\r\n"
+    ],
+    [
+      0.011487,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.40828,
+      "b"
+    ],
+    [
+      0.079748,
+      "r"
+    ],
+    [
+      0.071961,
+      "a"
+    ],
+    [
+      0.144058,
+      "i"
+    ],
+    [
+      0.135983,
+      "n"
+    ],
+    [
+      1.064196,
+      "-"
+    ],
+    [
+      0.391889,
+      "b"
+    ],
+    [
+      0.159882,
+      "a"
+    ],
+    [
+      0.199931,
+      "l"
+    ],
+    [
+      0.207942,
+      "a"
+    ],
+    [
+      0.256094,
+      "n"
+    ],
+    [
+      0.111989,
+      "c"
+    ],
+    [
+      0.104037,
+      "e"
+    ],
+    [
+      0.560058,
+      "\r\n"
+    ],
+    [
+      0.079134,
+      "Welcome to the Brain Games!\r\nBalance the given number.\r\n"
+    ],
+    [
+      0.002962,
+      "What is your name: "
+    ],
+    [
+      0.973825,
+      "S"
+    ],
+    [
+      0.216014,
+      "e"
+    ],
+    [
+      0.088112,
+      "r"
+    ],
+    [
+      0.151683,
+      "g"
+    ],
+    [
+      0.09605,
+      "e"
+    ],
+    [
+      0.080032,
+      "y"
+    ],
+    [
+      0.456064,
+      "\r\n"
+    ],
+    [
+      0.000406,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.001133,
+      "Question: 663\r\n> "
+    ],
+    [
+      7.663774,
+      "5"
+    ],
+    [
+      0.142727,
+      "5"
+    ],
+    [
+      0.128005,
+      "5"
+    ],
+    [
+      0.312072,
+      "\r\n"
+    ],
+    [
+      0.000141,
+      "Your answer: 555\r\n"
+    ],
+    [
+      4.2e-05,
+      "Correct!\r\n"
+    ],
+    [
+      0.000104,
+      "Question: 75\r\n"
+    ],
+    [
+      2.9e-05,
+      "> "
+    ],
+    [
+      6.768706,
+      "6"
+    ],
+    [
+      0.134844,
+      "6"
+    ],
+    [
+      0.216223,
+      "\r\n"
+    ],
+    [
+      0.00011,
+      "Your answer: 66\r\n"
+    ],
+    [
+      4.4e-05,
+      "Correct!\r\n"
+    ],
+    [
+      7.6e-05,
+      "Question: 292\r\n"
+    ],
+    [
+      3.9e-05,
+      "> "
+    ],
+    [
+      6.264763,
+      "4"
+    ],
+    [
+      0.14305,
+      "4"
+    ],
+    [
+      0.071807,
+      "5"
+    ],
+    [
+      0.30404,
+      "\r\n"
+    ],
+    [
+      9e-05,
+      "Your answer: 445\r\n"
+    ],
+    [
+      3.7e-05,
+      "Correct!\r\n"
+    ],
+    [
+      2.8e-05,
+      "Congratulations, Sergey!\r\n"
+    ],
+    [
+      0.00316,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.444986,
+      "brain-balance"
+    ],
+    [
+      0.543819,
+      "\r\n"
+    ],
+    [
+      0.079646,
+      "Welcome to the Brain Games!\r\nBalance the given number.\r\n"
+    ],
+    [
+      0.003008,
+      "What is your name: "
+    ],
+    [
+      1.029337,
+      "S"
+    ],
+    [
+      0.239923,
+      "e"
+    ],
+    [
+      0.103786,
+      "r"
+    ],
+    [
+      0.176185,
+      "g"
+    ],
+    [
+      0.159863,
+      "e"
+    ],
+    [
+      0.088001,
+      "y"
+    ],
+    [
+      0.464389,
+      "\r\n"
+    ],
+    [
+      0.000402,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.001123,
+      "Question: 26\r\n"
+    ],
+    [
+      7.8e-05,
+      "> "
+    ],
+    [
+      1.750301,
+      "2"
+    ],
+    [
+      0.071931,
+      "1"
+    ],
+    [
+      0.36008,
+      "\r\n"
+    ],
+    [
+      0.000141,
+      "Your answer: 21\r\n"
+    ],
+    [
+      3.5e-05,
+      "21 is wrong! Correct answer is 44\r\n"
+    ],
+    [
+      0.003146,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.204819,
+      "brain-balance"
+    ],
+    [
+      0.343785,
+      "\r\n"
+    ],
+    [
+      0.079,
+      "Welcome to the Brain Games!\r\nBalance the given number.\r\n"
+    ],
+    [
+      0.002986,
+      "What is your name: "
+    ],
+    [
+      1.261868,
+      "S"
+    ],
+    [
+      0.232208,
+      "r"
+    ],
+    [
+      0.031882,
+      "e"
+    ],
+    [
+      0.888374,
+      "\b \b"
+    ],
+    [
+      0.143793,
+      "\b \b"
+    ],
+    [
+      0.063906,
+      "e"
+    ],
+    [
+      0.047949,
+      "r"
+    ],
+    [
+      0.560173,
+      "g"
+    ],
+    [
+      0.111825,
+      "e"
+    ],
+    [
+      0.064037,
+      "y"
+    ],
+    [
+      0.416221,
+      "\r\n"
+    ],
+    [
+      0.000405,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.001127,
+      "Question: 634\r\n"
+    ],
+    [
+      5.1e-05,
+      "> "
+    ],
+    [
+      1.422387,
+      "a"
+    ],
+    [
+      0.119755,
+      "s"
+    ],
+    [
+      0.015804,
+      "d"
+    ],
+    [
+      0.104198,
+      "a"
+    ],
+    [
+      0.079948,
+      "s"
+    ],
+    [
+      0.351963,
+      "\r\n"
+    ],
+    [
+      0.000143,
+      "Your answer: asdas\r\n"
+    ],
+    [
+      3.8e-05,
+      "asdas is wrong! Correct answer is 445\r\n"
+    ],
+    [
+      0.00321,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ]
+  ],
+  "duration": 50.278831,
+  "command": null,
+  "version": 1,
+  "title": null,
+  "height": 24
+}

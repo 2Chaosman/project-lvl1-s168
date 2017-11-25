@@ -1,48 +1,11 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import {
-  cons,
-  car,
-  cdr,
-  toString
-} from 'hexlet-pairs';
 
 const greetings = (gameDescription) => {
   console.log(`Welcome to the Brain Games!\n${gameDescription}`);
   const name = readlineSync.question('What is your name: ');
-  console.log(`Hello, ${name}!`)
+  console.log(`Hello, ${name}!`);
   return name;
-};
-
-const getRandomNumber = (difficulty) => {
-  const num = Math.floor(Math.random() * difficulty)
-  return num;
-};
-
-const randomSymbol = () => {
-  const symbols = '+-*';
-  const rand = Math.floor(Math.random() * symbols.length);
-  return symbols[rand];
-};
-
-const getNewRandoms = () => {
-  let symbol = randomSymbol();
-  let a = getRandomNumber();
-  let b = getRandomNumber();
-  return [symbol, cons(a, b)];
-};
-
-const listToString = (list) => {
-    let result = '';
-    for (let i = 0; i < list.length; i++) {
-      result += list[i] ;
-    }
-    return result;
-  };
-
-const makeListofNumbers = (num) => {
-    num = num.toString();
-    const arr = num.split('');
-    return arr;
 };
 
 const startGame = (gameDescription, getGameData) => {
@@ -50,30 +13,25 @@ const startGame = (gameDescription, getGameData) => {
   let attempt = 0;
 
   while (attempt < 3) {
-    let gameData = getGameData();
-    let question = gameData[0];
-    let correctAnswer = gameData[1];
+    const gameData = getGameData();
+    const question = gameData[0];
+    const correctAnswer = gameData[1];
     console.log(`Question: ${question}`);
     const answer = readlineSync.prompt();
     console.log(`Your answer: ${answer}`);
 
     if (correctAnswer.toString() === answer) {
-      console.log("Correct!");
+      console.log('Correct!');
       attempt += 1;
     } else {
-      console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`)
+      console.log(`${answer} is wrong! Correct answer is ${correctAnswer}`);
       return;
     }
   }
   console.log(`Congratulations, ${name}!`);
-}
+};
 
 export {
   greetings,
-  randomSymbol,
-  getRandomNumber,
-  getNewRandoms,
-  listToString,
-  makeListofNumbers,
-  startGame
+  startGame,
 };
