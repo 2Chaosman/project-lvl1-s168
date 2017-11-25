@@ -1,9 +1,4 @@
 import {
-  cons,
-  car,
-  cdr,
-} from 'hexlet-pairs';
-import {
   getRandomNumber,
   randomSymbol,
   convertListToString,
@@ -12,11 +7,7 @@ import {
   startGame,
 } from '../index';
 
-const askQuestion = () => {
-  const randomMathSymbol = randomSymbol();
-  const pair = cons(getRandomNumber(10), getRandomNumber(10));
-  return [car(pair), randomMathSymbol, cdr(pair)];
-};
+const askQuestion = () => [getRandomNumber(10), randomSymbol(), getRandomNumber(10)];
 
 const calc = (list) => {
   let correctAnswer = 0;
