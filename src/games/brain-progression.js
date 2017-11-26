@@ -16,7 +16,7 @@ const askQuestion = () => {
 };
 
 const getGameData = () => {
-  const qa = askQuestion()
+  const qa = askQuestion();
   const question = qa[0];
   const answer = qa[1];
   return [convertListToString(question), answer];
