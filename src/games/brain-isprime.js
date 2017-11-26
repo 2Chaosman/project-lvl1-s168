@@ -7,18 +7,27 @@ import startGame from '../index';
 
 const askQuestion = () => getRandomNumber(100);
 
-const checkForPrime = (num) => {
-  for (let i = num - 1; i > 1; i -= 1) {
-    if (num % i === 0) {
-      return 'no';
-    }
+const isPrime = num => {
+  if (num < 2) {
+    return false;
   }
-  return 'yes';
-};
+
+  const checkForPrime = divider => {
+    if (divider > num - 1) {
+      return true;
+    }
+    if (num % divider === 0) {
+      return false;
+    }
+    return checkForPrime(divider + 1);
+  }
+
+  return checkForPrime(2);
+}
 
 const getGameData = () => {
   const question = askQuestion();
-  const answer = checkForPrime(question);
+  const answer = checkForPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
