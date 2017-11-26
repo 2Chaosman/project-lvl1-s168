@@ -1,0 +1,558 @@
+{
+  "height": 24,
+  "stdout": [
+    [
+      0.539526,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      0.692416,
+      "m"
+    ],
+    [
+      0.095583,
+      "a"
+    ],
+    [
+      0.12006,
+      "k"
+    ],
+    [
+      0.095913,
+      "e"
+    ],
+    [
+      0.144069,
+      " "
+    ],
+    [
+      0.296246,
+      "i"
+    ],
+    [
+      0.159905,
+      "n"
+    ],
+    [
+      0.079919,
+      "s"
+    ],
+    [
+      0.200166,
+      "t"
+    ],
+    [
+      0.055723,
+      "a"
+    ],
+    [
+      0.168059,
+      "l"
+    ],
+    [
+      0.136113,
+      "l"
+    ],
+    [
+      0.464177,
+      "\r\n"
+    ],
+    [
+      0.001839,
+      "npm install -g\r\n"
+    ],
+    [
+      0.561719,
+      "\u001b[?25l"
+    ],
+    [
+      0.003155,
+      "[\u001b[90m..................\u001b[0m] / rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.046516,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.050382,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.101959,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.073199,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.052083,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.147874,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.059708,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.054023,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.05196,
+      "[\u001b[90m..................\u001b[0m] - rollbackFailedOptional: \u001b[34;40mverb\u001b[0m \u001b[35mnpm-session\u001b[0m a3aa6ebac0a85ee\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.310138,
+      "[\u001b[90m..................\u001b[0m] / loadIdealTree:loadAllDepsIntoIdealTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loa\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.050824,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.089114,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.058594,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.104626,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.053684,
+      "[\u001b[90m..................\u001b[0m] \\ loadRequestedDeps: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadAllDepsIntoIdealTree\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.067643,
+      "[\u001b[90m..................\u001b[0m] \\ loadDep:semver: \u001b[7msill\u001b[0m \u001b[35mresolveWithNewModule\u001b[0m hexlet_project\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.059393,
+      "[\u001b[90m..................\u001b[0m] \\ loadDep:babel-types: \u001b[7msill\u001b[0m \u001b[35mresolveWithNewModule\u001b[0m hexlet_pr\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.053946,
+      "[\u001b[7m \u001b[27m\u001b[90m.................\u001b[0m] \\ loadDep:babel-plugin-transform-object-rest-spread: \u001b[7msill\u001b[0m \u001b[35m\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.231517,
+      "[\u001b[7m       \u001b[27m\u001b[90m...........\u001b[0m] - diffTrees: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m generateActionsToTake\u001b[0m\u001b[K\r"
+    ],
+    [
+      0.043794,
+      "\r\u001b[K\u001b[?25h"
+    ],
+    [
+      0.000115,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-games -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-games.js\r\n"
+    ],
+    [
+      0.00019,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-even -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-even.js\r\n"
+    ],
+    [
+      9.4e-05,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-calc -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-calc.js\r\n"
+    ],
+    [
+      9.1e-05,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-gcd -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-gcd.js\r\n"
+    ],
+    [
+      5.8e-05,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-balance -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-balance.js\r\n"
+    ],
+    [
+      9.2e-05,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-progression -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-progression.js\r\n"
+    ],
+    [
+      0.000184,
+      "/home/sergey/.nvm/versions/node/v9.1.0/bin/brain-isprime -> /home/sergey/.nvm/versions/node/v9.1.0/lib/node_modules/hexlet_project_brain_games/dist/bin/brain-isprime.js\r\n"
+    ],
+    [
+      0.004323,
+      "+ hexlet_project_brain_games@0.8.0\r\nupdated 1 package in 1.932s\r\n"
+    ],
+    [
+      0.010869,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.872399,
+      "b"
+    ],
+    [
+      0.10349,
+      "r"
+    ],
+    [
+      0.048308,
+      "a"
+    ],
+    [
+      0.167924,
+      "i"
+    ],
+    [
+      0.104167,
+      "n"
+    ],
+    [
+      0.800191,
+      "-"
+    ],
+    [
+      0.663898,
+      "i"
+    ],
+    [
+      0.119718,
+      "s"
+    ],
+    [
+      0.232122,
+      "p"
+    ],
+    [
+      0.199928,
+      "r"
+    ],
+    [
+      0.192071,
+      "i"
+    ],
+    [
+      0.151843,
+      "m"
+    ],
+    [
+      0.160072,
+      "e"
+    ],
+    [
+      0.552056,
+      "\r\n"
+    ],
+    [
+      0.069733,
+      "Welcome to the Brain Games!\r\nIs this number prime?\r\n"
+    ],
+    [
+      0.003255,
+      "What is your name: "
+    ],
+    [
+      0.879074,
+      "S"
+    ],
+    [
+      0.239915,
+      "e"
+    ],
+    [
+      0.055897,
+      "r"
+    ],
+    [
+      0.23202,
+      "g"
+    ],
+    [
+      0.127905,
+      "e"
+    ],
+    [
+      0.07218,
+      "y"
+    ],
+    [
+      0.456074,
+      "\r\n"
+    ],
+    [
+      0.000407,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.000247,
+      "Question: 37\r\n"
+    ],
+    [
+      0.000153,
+      "> "
+    ],
+    [
+      2.719272,
+      "y"
+    ],
+    [
+      0.063867,
+      "e"
+    ],
+    [
+      0.071951,
+      "s"
+    ],
+    [
+      0.432161,
+      "\r\n"
+    ],
+    [
+      0.000143,
+      "Your answer: yes\r\n"
+    ],
+    [
+      4.7e-05,
+      "Correct!\r\n"
+    ],
+    [
+      3.2e-05,
+      "Question: 8\r\n"
+    ],
+    [
+      6.1e-05,
+      "> "
+    ],
+    [
+      1.687837,
+      "n"
+    ],
+    [
+      0.191867,
+      "o"
+    ],
+    [
+      0.607996,
+      "\r\n"
+    ],
+    [
+      0.000117,
+      "Your answer: no\r\n"
+    ],
+    [
+      3.8e-05,
+      "Correct!\r\n"
+    ],
+    [
+      3e-05,
+      "Question: 63\r\n"
+    ],
+    [
+      5.7e-05,
+      "> "
+    ],
+    [
+      1.519918,
+      "n"
+    ],
+    [
+      0.479975,
+      "o"
+    ],
+    [
+      0.575991,
+      "\r\n"
+    ],
+    [
+      9.8e-05,
+      "Your answer: no\r\n"
+    ],
+    [
+      3.9e-05,
+      "Correct!\r\n"
+    ],
+    [
+      3.1e-05,
+      "Congratulations, Sergey!\r\n"
+    ],
+    [
+      0.003033,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.580887,
+      "brain-isprime"
+    ],
+    [
+      0.272039,
+      "\r\n"
+    ],
+    [
+      0.069316,
+      "Welcome to the Brain Games!\r\nIs this number prime?\r\n"
+    ],
+    [
+      0.003022,
+      "What is your name: "
+    ],
+    [
+      1.287558,
+      "S"
+    ],
+    [
+      0.223755,
+      "e"
+    ],
+    [
+      0.056111,
+      "r"
+    ],
+    [
+      0.17601,
+      "g"
+    ],
+    [
+      0.111916,
+      "e"
+    ],
+    [
+      0.088043,
+      "y"
+    ],
+    [
+      0.439971,
+      "\r\n"
+    ],
+    [
+      0.0004,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.000238,
+      "Question: 55\r\n"
+    ],
+    [
+      0.000155,
+      "> "
+    ],
+    [
+      2.535387,
+      "y"
+    ],
+    [
+      0.047742,
+      "e"
+    ],
+    [
+      0.063961,
+      "s"
+    ],
+    [
+      0.544361,
+      "\r\n"
+    ],
+    [
+      0.000105,
+      "Your answer: yes\r\n"
+    ],
+    [
+      4e-05,
+      "yes is wrong! Correct answer is no\r\n"
+    ],
+    [
+      0.003058,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ],
+    [
+      1.972896,
+      "brain-isprime"
+    ],
+    [
+      0.415729,
+      "\r\n"
+    ],
+    [
+      0.070191,
+      "Welcome to the Brain Games!\r\nIs this number prime?\r\n"
+    ],
+    [
+      0.003087,
+      "What is your name: "
+    ],
+    [
+      1.118959,
+      "S"
+    ],
+    [
+      0.23983,
+      "e"
+    ],
+    [
+      0.048021,
+      "r"
+    ],
+    [
+      0.191802,
+      "g"
+    ],
+    [
+      0.103902,
+      "e"
+    ],
+    [
+      0.112067,
+      "y"
+    ],
+    [
+      0.376332,
+      "\r\n"
+    ],
+    [
+      0.000393,
+      "Hello, Sergey!\r\n"
+    ],
+    [
+      0.000275,
+      "Question: 94\r\n"
+    ],
+    [
+      0.000114,
+      "> "
+    ],
+    [
+      0.439208,
+      "a"
+    ],
+    [
+      0.047882,
+      "s"
+    ],
+    [
+      0.111997,
+      "d"
+    ],
+    [
+      0.488289,
+      "\r\n"
+    ],
+    [
+      0.000139,
+      "Your answer: asd\r\n"
+    ],
+    [
+      4.1e-05,
+      "asd is wrong! Correct answer is no\r\n"
+    ],
+    [
+      0.002888,
+      "\u001b]0;sergey@sergey-desktop: ~/hexlet/brain-games\u0007\u001b[01;32msergey@sergey-desktop\u001b[00m:\u001b[01;34m~/hexlet/brain-games\u001b[00m$ "
+    ]
+  ],
+  "title": null,
+  "duration": 34.700197,
+  "version": 1,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "width": 80,
+  "command": null
+}
