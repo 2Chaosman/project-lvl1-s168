@@ -7,12 +7,12 @@ import startGame from '../index';
 
 const askQuestion = () => getRandomNumber(100);
 
-const isPrime = num => {
+const isPrime = (num) => {
   if (num < 2) {
     return false;
   }
 
-  const checkForPrime = divider => {
+  const checkForPrime = (divider) => {
     if (divider > num - 1) {
       return true;
     }
@@ -20,14 +20,14 @@ const isPrime = num => {
       return false;
     }
     return checkForPrime(divider + 1);
-  }
+  };
 
   return checkForPrime(2);
-}
+};
 
 const getGameData = () => {
   const question = askQuestion();
-  const answer = checkForPrime(question) ? 'yes' : 'no';
+  const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
