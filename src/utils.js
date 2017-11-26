@@ -25,9 +25,26 @@ const makeListOfNumbers = (num) => {
   return arr;
 };
 
+
+const progression = () => {
+  const step = getRandomNumber(10);
+  const start = getRandomNumber(10);
+
+  const makeProgression = (result, length) => {
+    if (length === 10){
+      return result;
+    }
+    result.push(start + (step * length));
+    return makeProgression(result, length + 1);
+  }
+
+  return makeProgression([start], 1);
+};
+
 export {
   getRandomNumber,
   randomSymbol,
   convertListToString,
   makeListOfNumbers,
+  progression,
 };
